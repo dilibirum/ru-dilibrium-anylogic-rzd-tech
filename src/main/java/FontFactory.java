@@ -1,11 +1,15 @@
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.io.Serializable;
 
 /**
  * Класс создает фирменные шрифты
+ *
+ * @version 0.0.3
+ * @author ООО "Дилибриум". <br/>Техническая поддержка: <a href="mailto:support@dilibrium.ru">support@dilibrium.ru</a>
  */
-public class FontFactory implements Debug{
+public class FontFactory implements Debug, Serializable {
 
     /**
      * Это число используется при сохранении состояния модели<br>

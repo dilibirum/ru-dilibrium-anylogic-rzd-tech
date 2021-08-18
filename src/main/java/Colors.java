@@ -3,6 +3,17 @@ import java.io.Serializable;
 
 /**
  * Цветовые константы модели
+ *
+ * <code>RZD_RED</code> красный РЖД
+ * <code>RZD_GRAY_20</code> серый 20%
+ * <code>RZD_GRAY_40</code> серый 40%
+ * <code>RZD_GRAY_60</code> серый 60%
+ * <code>RZD_GRAY_80</code> серый 80%
+ * <code>BUTTON_ACTIVE</code> кнопка нажата
+ * <code>BUTTON_INACTIVE</code> кнопка не нажата
+ *
+ * @version 0.0.1
+ * @author ООО "Дилибриум". <br/>Техническая поддержка: <a href="mailto:support@dilibrium.ru">support@dilibrium.ru</a>
  */
 public enum Colors implements Serializable {
     RZD_RED(new Color(226, 26, 26), "красный РЖД"),
