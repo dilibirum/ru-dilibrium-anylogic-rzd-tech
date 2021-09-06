@@ -1,10 +1,10 @@
 import java.io.Serializable;
 
 /**
- * Железнодорожный вагон
+ * <b>Модель железнодорожного вагона</b><br/><br/>
  *
+ * @author ООО "Дилибриум"<br/>Техническая поддержка: <a href="mailto:support@dilibrium.ru">support@dilibrium.ru</a>
  * @version 0.0.1
- * @author ООО "Дилибриум". <br/>Техническая поддержка: <a href="mailto:support@dilibrium.ru">support@dilibrium.ru</a>
  */
 public class RailCar implements Debug, Serializable {
 

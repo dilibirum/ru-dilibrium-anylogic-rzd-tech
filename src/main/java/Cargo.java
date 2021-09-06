@@ -1,16 +1,19 @@
 import java.io.Serializable;
 
 /**
- * Константы типов груза со значениями по умолчанию
+ * <b>Константы типов груза со значениями по умолчанию</b><br/><br/>
  *
- * <code>COAL</code> уголь: значения по умолчанию (макс. масса груза - 71 т, макс. скорость - 300 км/сут.)
- * <code>SAND</code> песок: значения по умолчанию (макс. масса груза - 69 т, макс. скорость - 300 км/сут.)
- * <code>OIL</code> нефть: значения по умолчанию (макс. масса груза - 125 т, макс. скорость - 280 км/сут.)
+ * <code>COAL</code> уголь: значения по умолчанию (макс. масса груза - 71 т, макс. скорость - 300 км/сут.)<br/>
+ * <code>SAND</code> песок: значения по умолчанию (макс. масса груза - 69 т, макс. скорость - 300 км/сут.)<br/>
+ * <code>OIL</code> нефть: значения по умолчанию (макс. масса груза - 125 т, макс. скорость - 280 км/сут.)<br/><br/>
+ *
+ * @author ООО "Дилибриум"<br/>Техническая поддержка: <a href="mailto:support@dilibrium.ru">support@dilibrium.ru</a>
+ * @version 0.0.1
  */
 public enum Cargo implements Debug, Serializable {
-    COAL(RailCar.RailcarType.GONDOLA, 71d, 300d, "уголь"),
-    SAND(RailCar.RailcarType.GONDOLA, 69d, 300d, "песок"),
-    OIL(RailCar.RailcarType.TANK, 125d, 280d, "нефть");
+    COAL(RailCar.RailcarType.GONDOLA, 71d, 300d, "Уголь"),
+    SAND(RailCar.RailcarType.GONDOLA, 69d, 300d, "Песок"),
+    OIL(RailCar.RailcarType.TANK, 125d, 280d, "Нефть");
 
     /**
      * Это число используется при сохранении состояния модели<br>

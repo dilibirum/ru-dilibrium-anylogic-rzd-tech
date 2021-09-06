@@ -1,12 +1,13 @@
 import java.io.Serializable;
 
 /**
- * Схемы работы модели:
- * 0 - Текущая схемая работы;
- * 1 - Целевая схема работы.
+ * <b>Схемы работы модели</b><br/><br/>
  *
+ * <code>0</code> - Текущая схемая работы;<br/>
+ * <code>1</code> - Целевая схема работы.<br/><br/>
+ *
+ * @author ООО "Дилибриум"<br/>Техническая поддержка: <a href="mailto:support@dilibrium.ru">support@dilibrium.ru</a>
  * @version 0.0.1
- * @author ООО "Дилибриум". <br/>Техническая поддержка: <a href="mailto:support@dilibrium.ru">support@dilibrium.ru</a>
  */
 public enum OperatingMode implements Serializable {
     CURRENT("Текущая схемая работы", 0),

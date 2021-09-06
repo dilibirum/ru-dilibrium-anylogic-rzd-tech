@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.io.Serializable;
 
 /**
- * Класс создает фирменные шрифты
+ * <b>Класс создает фирменные шрифты модели</b><br/><br/>
  *
+ * @author ООО "Дилибриум"<br/>Техническая поддержка: <a href="mailto:support@dilibrium.ru">support@dilibrium.ru</a>
  * @version 0.0.3
- * @author ООО "Дилибриум". <br/>Техническая поддержка: <a href="mailto:support@dilibrium.ru">support@dilibrium.ru</a>
  */
 public class FontFactory implements Debug, Serializable {
 
